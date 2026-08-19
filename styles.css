@@ -10,3 +10,41 @@ body {
     background-color: var(--color-fondo);
     color: var(--color-texto);
 }
+.encabezado {
+    text-align: center;
+    padding: 20px;
+}
+
+.navegacion {
+    margin-top: 20px;
+}
+
+.navegacion a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--color-principal);
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.presentacion {
+    max-width: 500px;
+}
+
+.avatar {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
