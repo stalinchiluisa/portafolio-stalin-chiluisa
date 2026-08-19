@@ -1,0 +1,12 @@
+:root {
+    --color-principal: #2563eb;
+    --color-fondo: #f8fafc;
+    --color-texto: #1e293b;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
