@@ -48,3 +48,33 @@ footer {
     text-align: center;
     padding: 20px;
 }
+.seccion {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 30px;
+}
+
+.seccion h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: var(--color-principal);
+}
+
+.lista-habilidades {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.habilidad {
+    background-color: white;
+    padding: 20px;
+    width: 190px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.habilidad h3 {
+    color: var(--color-principal);
+}
