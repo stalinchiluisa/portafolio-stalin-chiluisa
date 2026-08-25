@@ -335,3 +335,29 @@ body.modo-oscuro {
 .oculto {
     display: none;
 }
+#mensaje-formulario {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.mensaje-error {
+    color: #dc2626;
+}
+
+.mensaje-exito {
+    color: #16a34a;
+}
+#mensaje-formulario {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.mensaje-error {
+    color: #dc2626;
+}
+
+.mensaje-exito {
+    color: #16a34a;
+}

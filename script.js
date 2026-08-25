@@ -40,3 +40,30 @@ function alternarSobreMi() {
 }
 
 botonSobreMi.addEventListener("click", alternarSobreMi);
+const formularioContacto = document.getElementById("formulario-contacto");
+const campoNombre = document.getElementById("nombre");
+const campoCorreo = document.getElementById("correo");
+const campoMensaje = document.getElementById("mensaje");
+const mensajeFormulario = document.getElementById("mensaje-formulario");
+
+function validarFormulario(evento) {
+    evento.preventDefault();
+
+    const nombre = campoNombre.value.trim();
+    const correo = campoCorreo.value.trim();
+    const mensaje = campoMensaje.value.trim();
+
+    if (nombre === "" || correo === "" || mensaje === "") {
+        mensajeFormulario.textContent = "Por favor, completa todos los campos.";
+        mensajeFormulario.classList.remove("mensaje-exito");
+        mensajeFormulario.classList.add("mensaje-error");
+    } else {
+        mensajeFormulario.textContent = "Mensaje enviado correctamente.";
+        mensajeFormulario.classList.remove("mensaje-error");
+        mensajeFormulario.classList.add("mensaje-exito");
+
+        formularioContacto.reset();
+    }
+}
+
+formularioContacto.addEventListener("submit", validarFormulario);
