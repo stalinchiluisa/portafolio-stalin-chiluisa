@@ -312,3 +312,26 @@ body.modo-oscuro {
     --color-texto-claro: #cbd5e1;
     --sombra: 0 8px 20px rgba(0, 0, 0, 0.35);
 }
+/* BOTÓN SOBRE MÍ */
+
+.boton-info {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color-principal);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.boton-info:hover {
+    background-color: var(--color-secundario);
+    transform: translateY(-2px);
+}
+
+.oculto {
+    display: none;
+}

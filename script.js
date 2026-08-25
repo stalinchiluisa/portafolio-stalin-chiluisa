@@ -26,3 +26,17 @@ function cambiarTema() {
 botonTema.addEventListener("click", cambiarTema);
 
 cargarTemaGuardado();
+const botonSobreMi = document.getElementById("boton-sobre-mi");
+const contenidoSobreMi = document.getElementById("contenido-sobre-mi");
+
+function alternarSobreMi() {
+    const estaOculto = contenidoSobreMi.classList.toggle("oculto");
+
+    if (estaOculto) {
+        botonSobreMi.textContent = "Mostrar información";
+    } else {
+        botonSobreMi.textContent = "Ocultar información";
+    }
+}
+
+botonSobreMi.addEventListener("click", alternarSobreMi);
