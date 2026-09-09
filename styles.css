@@ -857,3 +857,44 @@ section {
 #experiencia h2 {
     margin-bottom: 18px;
 }
+/* HABILIDADES MÁS COMPACTAS */
+
+#habilidades {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+#habilidades h2 {
+    margin-bottom: 14px;
+}
+
+.titulo-habilidades {
+    margin-top: 14px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+#habilidades .lista-habilidades {
+    gap: 8px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#habilidades .habilidad {
+    padding: 10px 10px;
+    min-height: auto;
+    border-radius: 10px;
+}
+
+#habilidades .habilidad h3 {
+    margin: 0 0 5px;
+    font-size: 13px;
+    line-height: 1.2;
+}
+
+#habilidades .habilidad p {
+    margin: 0;
+    font-size: 11px;
+    line-height: 1.2;
+}
