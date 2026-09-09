@@ -67,3 +67,4 @@ function validarFormulario(evento) {
 }
 
 formularioContacto.addEventListener("submit", validarFormulario);
+

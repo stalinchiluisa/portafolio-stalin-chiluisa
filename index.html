@@ -11,39 +11,72 @@
 <body>
 
     <header class="encabezado">
-        <h1>Stalin Paul Chiluisa Baidal</h1>
-        <p>Estudiante de Ingeniería en Sistemas Inteligentes</p>
+
+    <div class="header-contenido">
+
+        <div class="header-identidad">
+            <h1>Stalin Paul Chiluisa Baidal</h1>
+
+            <p>
+                Estudiante de Ingeniería en Sistemas Inteligentes
+            </p>
+        </div>
 
         <nav class="navegacion">
             <a href="#inicio">Inicio</a>
             <a href="#sobre-mi">Sobre mí</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#formacion">Formación</a>
             <a href="#habilidades">Habilidades</a>
             <a href="#proyectos">Proyectos</a>
             <a href="#contacto">Contacto</a>
         </nav>
-        <button id="boton-tema" class="boton-tema" type="button">
-    🌙 Modo oscuro
-</button>
-    </header>
+
+        <button id="boton-tema"
+                class="boton-tema"
+                type="button">
+            🌙 Modo oscuro
+        </button>
+
+    </div>
+
+</header>
 
     <main>
 
         <section id="inicio" class="principal">
 
             <div class="presentacion">
-    <h2>Hola, soy Stalin</h2>
 
-    <p>
-        Bienvenido a mi portafolio personal. En este espacio presentaré
-        mis habilidades, proyectos y conocimientos adquiridos durante
-        mi formación académica.
+    <p class="saludo">Hola, soy</p>
+
+    <h2>Stalin Paul Chiluisa Baidal</h2>
+
+    <h3 class="titulo-profesional">
+        Estudiante de Ingeniería en Sistemas Inteligentes
+    </h3>
+
+    <p class="descripcion-profesional">
+        Profesional con amplia experiencia en servicio al cliente y gestión
+        operativa, actualmente enfocado en ampliar mis conocimientos en
+        tecnología, programación y desarrollo de sistemas.
     </p>
 
-    <<a href="docs/CV_Stalin_Chiluisa.pdf"
-   class="boton-cv"
-   download="CV-Stalin-Chiluisa.pdf">
-    Descargar CV
-</a>
+    <div class="botones-presentacion">
+
+        <a href="docs/CV_Stalin_Chiluisa.pdf"
+           class="boton-cv"
+           download="CV-Stalin-Chiluisa.pdf">
+            Descargar CV
+        </a>
+
+        <a href="#contacto"
+           class="boton-contacto">
+            Contactarme
+        </a>
+
+    </div>
+
 </div>
 
             <div class="contenedor-avatar">
@@ -77,31 +110,212 @@
     </button>
 </section>
 </section>
+<section id="experiencia" class="seccion">
+    <h2>Experiencia Profesional</h2>
+    
+    <div class="experiencia-contenedor">
+
+        <article class="experiencia-item">
+            <div class="experiencia-fecha">
+                Feb. 2009 - Actualidad
+            </div>
+
+            <div class="experiencia-info">
+                <h3>Xtrim</h3>
+                <h4>Backoffice de Servicio al Cliente</h4>
+
+                <p>
+                    Amplia experiencia en atención al cliente dentro del
+                    sector de telecomunicaciones, gestionando y dando
+                    seguimiento a casos y reclamos relacionados con
+                    servicios de Internet, televisión y telefonía.
+                </p>
+
+                <p>
+                    Atención de requerimientos recibidos mediante call center,
+                    correo ATC y sistemas de ticketing, orientada a la
+                    resolución de problemas y satisfacción del cliente.
+                </p>
+            </div>
+        </article>
+
+        <article class="experiencia-item">
+            <div class="experiencia-fecha">
+                Abr. 2016 - Ago. 2020
+            </div>
+
+            <div class="experiencia-info">
+                <h3>Mocka Coffee Shop</h3>
+                <h4>Administrador - Medio tiempo</h4>
+
+                <p>
+                    Supervisión del equipo de ventas, control de inventarios
+                    y calidad, seguimiento de objetivos comerciales y
+                    coordinación de actividades operativas.
+                </p>
+            </div>
+        </article>
+
+        <article class="experiencia-item">
+            <div class="experiencia-fecha">
+                Nov. 2006 - Jul. 2008
+            </div>
+
+            <div class="experiencia-info">
+                <h3>Siemens Enterprise Communications</h3>
+                <h4>Operador de Telemercadeo</h4>
+
+                <p>
+                    Gestión telefónica de cobranzas, notificaciones,
+                    confirmación de cheques y atención de diferentes
+                    requerimientos de clientes.
+                </p>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<section id="formacion" class="seccion">
+
+    <h2>Formación Académica y Certificaciones</h2>
+
+    <div class="formacion-contenedor">
+
+        <article class="formacion-item">
+            <div class="formacion-icono">🎓</div>
+
+            <div class="formacion-info">
+                <h3>Ingeniería en Sistemas Inteligentes</h3>
+                <h4>Universidad ECOTEC</h4>
+
+                <p>
+                    Formación orientada al desarrollo de sistemas,
+                    programación, bases de datos y nuevas tecnologías.
+                </p>
+
+                <span class="formacion-estado">
+                    Actualmente cursando
+                </span>
+            </div>
+        </article>
+
+        <article class="formacion-item">
+            <div class="formacion-icono">🌐</div>
+
+            <div class="formacion-info">
+                <h3>CCNA</h3>
+                <h4>Cisco Networking</h4>
+
+                <p>
+                    Conocimientos relacionados con redes,
+                    conectividad, direccionamiento IP y fundamentos
+                    de infraestructura tecnológica.
+                </p>
+            </div>
+        </article>
+
+    </div>
+
+</section>
 
 <section id="habilidades" class="seccion">
-    <h2>Habilidades</h2>
+
+    <h2>Habilidades y Conocimientos</h2>
+
+    <h3 class="titulo-habilidades">Habilidades profesionales</h3>
 
     <div class="lista-habilidades">
+
         <article class="habilidad">
-            <h3>HTML</h3>
-            <p>Creación y organización de la estructura de páginas web.</p>
+            <h3>Servicio al cliente</h3>
+            <p>
+                Experiencia en atención, seguimiento de requerimientos
+                y orientación al cliente.
+            </p>
         </article>
 
         <article class="habilidad">
-            <h3>CSS</h3>
-            <p>Aplicación de estilos y diseño visual en sitios web.</p>
+            <h3>Resolución de problemas</h3>
+            <p>
+                Capacidad para analizar situaciones y gestionar
+                soluciones de manera eficiente.
+            </p>
         </article>
 
         <article class="habilidad">
-            <h3>GitHub</h3>
-            <p>Control y almacenamiento de proyectos mediante repositorios.</p>
+            <h3>Gestión de casos</h3>
+            <p>
+                Seguimiento de reclamos, solicitudes y requerimientos
+                hasta su resolución.
+            </p>
         </article>
 
         <article class="habilidad">
             <h3>Trabajo en equipo</h3>
-            <p>Capacidad para colaborar y aportar en el desarrollo de actividades.</p>
+            <p>
+                Capacidad para colaborar, coordinar actividades
+                y contribuir al cumplimiento de objetivos.
+            </p>
         </article>
+
     </div>
+
+
+    <h3 class="titulo-habilidades">Conocimientos tecnológicos</h3>
+
+    <div class="lista-habilidades">
+
+        <article class="habilidad">
+            <h3>HTML</h3>
+            <p>
+                Creación y organización de la estructura
+                de páginas web.
+            </p>
+        </article>
+
+        <article class="habilidad">
+            <h3>CSS</h3>
+            <p>
+                Diseño visual, estilos y adaptación
+                de sitios web.
+            </p>
+        </article>
+
+        <article class="habilidad">
+            <h3>JavaScript</h3>
+            <p>
+                Desarrollo de funcionalidades e interacción
+                en páginas web.
+            </p>
+        </article>
+
+        <article class="habilidad">
+            <h3>GitHub</h3>
+            <p>
+                Control de versiones y almacenamiento
+                de proyectos mediante repositorios.
+            </p>
+        </article>
+
+        <article class="habilidad">
+            <h3>SQL y Bases de Datos</h3>
+            <p>
+                Creación y consulta de bases de datos
+                mediante SQL.
+            </p>
+        </article>
+
+        <article class="habilidad">
+            <h3>Redes / CCNA</h3>
+            <p>
+                Conocimientos de redes, conectividad,
+                direccionamiento IP e infraestructura.
+            </p>
+        </article>
+
+    </div>
+
 </section>
 <section id="proyectos" class="seccion">
     <h2>Proyectos</h2>
@@ -163,6 +377,25 @@
 
 <section id="contacto" class="seccion">
     <h2>Contacto</h2>
+    <div class="contacto-intro">
+
+    <p>
+        Si deseas comunicarte conmigo por una oportunidad profesional,
+        colaboración o proyecto, puedes contactarme mediante los
+        siguientes medios.
+    </p>
+
+    <div class="contacto-datos">
+
+        <a href="mailto:TU_CORREO@gmail.com"
+           class="contacto-item">
+            ✉️ Correo electrónico
+        </a>
+
+        
+    </div>
+
+</div>
 
     <form class="formulario" id="formulario-contacto">
 
@@ -194,13 +427,55 @@
     </main>
 
     <footer class="pie-pagina">
-    <p>© 2026 Stalin Paul Chiluisa Baidal</p>
 
-    <a href="https://github.com/stalinchiluisa"
-       target="_blank"
-       rel="noopener noreferrer">
-        Mi perfil de GitHub
-    </a>
+    <div class="footer-contenido">
+
+        <div class="footer-info">
+            <h3>Stalin Paul Chiluisa Baidal</h3>
+
+            <p>
+                Estudiante de Ingeniería en Sistemas Inteligentes
+            </p>
+
+            <p>
+                Servicio al cliente · Tecnología · Desarrollo de sistemas
+            </p>
+        </div>
+
+        <div class="footer-enlaces">
+
+            <a href="#inicio">
+                Inicio
+            </a>
+
+            <a href="#experiencia">
+                Experiencia
+            </a>
+
+            <a href="#formacion">
+                Formación
+            </a>
+
+            <a href="docs/CV_Stalin_Chiluisa.pdf"
+               download="CV-Stalin-Chiluisa.pdf">
+                Descargar CV
+            </a>
+
+            <a href="https://github.com/stalinchiluisa"
+               target="_blank"
+               rel="noopener noreferrer">
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="footer-final">
+        <p>
+            © 2026 Stalin Paul Chiluisa Baidal · Portafolio Personal
+        </p>
+    </div>
+
 </footer>
 
 <script src="script.js"></script>

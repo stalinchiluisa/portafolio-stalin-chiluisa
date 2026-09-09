@@ -361,3 +361,499 @@ body.modo-oscuro {
 .mensaje-exito {
     color: #16a34a;
 }
+/* PRESENTACIÓN PROFESIONAL */
+
+.saludo {
+    color: var(--color-principal);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.titulo-profesional {
+    margin-top: -5px;
+    margin-bottom: 20px;
+    color: var(--color-texto-claro);
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.descripcion-profesional {
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.botones-presentacion {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.boton-cv,
+.boton-contacto {
+    display: inline-block;
+    padding: 12px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.boton-cv {
+    background-color: var(--color-principal);
+    color: white;
+}
+
+.boton-contacto {
+    border: 2px solid var(--color-principal);
+    color: var(--color-principal);
+}
+
+.boton-cv:hover,
+.boton-contacto:hover {
+    transform: translateY(-3px);
+}
+
+.boton-cv:hover {
+    background-color: var(--color-secundario);
+}
+
+.boton-contacto:hover {
+    background-color: var(--color-principal);
+    color: white;
+}
+/* EXPERIENCIA PROFESIONAL */
+
+.experiencia-contenedor {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.experiencia-item {
+    display: flex;
+    gap: 30px;
+    background-color: var(--color-blanco);
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: var(--sombra);
+    transition: 0.3s;
+}
+
+.experiencia-item:hover {
+    transform: translateY(-4px);
+}
+
+.experiencia-fecha {
+    min-width: 160px;
+    color: var(--color-principal);
+    font-weight: bold;
+}
+
+.experiencia-info h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: var(--color-principal);
+}
+
+.experiencia-info h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: var(--color-texto-claro);
+    font-weight: normal;
+}
+
+.experiencia-info p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .experiencia-item {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .experiencia-fecha {
+        min-width: auto;
+    }
+}
+/* FORMACIÓN ACADÉMICA */
+
+.formacion-contenedor {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.formacion-item {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    gap: 20px;
+    background-color: var(--color-blanco);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: var(--sombra);
+    transition: 0.3s;
+}
+
+.formacion-item:hover {
+    transform: translateY(-5px);
+}
+
+.formacion-icono {
+    font-size: 35px;
+}
+
+.formacion-info h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: var(--color-principal);
+}
+
+.formacion-info h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: var(--color-texto-claro);
+    font-weight: normal;
+}
+
+.formacion-info p {
+    line-height: 1.6;
+}
+
+.formacion-estado {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 7px 12px;
+    border-radius: 20px;
+    background-color: #dbeafe;
+    color: #1e40af;
+    font-size: 14px;
+    font-weight: bold;
+}
+.titulo-habilidades {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    color: var(--color-texto);
+}
+/* SOBRE MÍ PROFESIONAL */
+
+.sobre-mi-contenido {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.sobre-mi-contenido p {
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+.datos-perfil {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.datos-perfil span {
+    background-color: var(--color-blanco);
+    color: var(--color-principal);
+    padding: 9px 14px;
+    border-radius: 20px;
+    box-shadow: var(--sombra);
+    font-size: 14px;
+    font-weight: bold;
+}
+/* CONTACTO PROFESIONAL */
+
+.contacto-intro {
+    max-width: 750px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.contacto-intro p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.contacto-datos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.contacto-item {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: var(--color-blanco);
+    color: var(--color-principal);
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: var(--sombra);
+    transition: 0.3s;
+}
+
+.contacto-item:hover {
+    transform: translateY(-3px);
+    background-color: var(--color-principal);
+    color: white;
+}
+/* PIE DE PÁGINA PROFESIONAL */
+
+.pie-pagina {
+    background-color: #1e293b;
+    color: white;
+    padding: 40px 20px 15px;
+    margin-top: 50px;
+}
+
+.footer-contenido {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer-info h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.footer-info p {
+    margin: 6px 0;
+    color: #cbd5e1;
+}
+
+.footer-enlaces {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+}
+
+.footer-enlaces a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.footer-enlaces a:hover {
+    color: #60a5fa;
+}
+
+.footer-final {
+    max-width: 1000px;
+    margin: 30px auto 0;
+    padding-top: 15px;
+    border-top: 1px solid #475569;
+    text-align: center;
+}
+
+.footer-final p {
+    margin: 0;
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .footer-contenido {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-enlaces {
+        justify-content: center;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
+section {
+    scroll-margin-top: 30px;
+}
+/* REDUCIR ESPACIO ENTRE SECCIONES PROFESIONALES */
+
+#experiencia,
+#formacion,
+#habilidades {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#experiencia h2,
+#formacion h2,
+#habilidades h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+/* Menos separación después de experiencia */
+#experiencia {
+    padding-bottom: 20px;
+}
+
+/* Menos separación antes y después de formación */
+#formacion {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Habilidades más cerca de formación */
+#habilidades {
+    padding-top: 25px;
+}
+/* AJUSTE FINAL DE ESPACIADO ENTRE SECCIONES */
+
+#inicio {
+    padding-bottom: 25px;
+}
+
+#sobre-mi {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#experiencia {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+#formacion {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#habilidades {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.seccion h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+/* ENCABEZADO PROFESIONAL */
+
+.encabezado {
+    background-color: var(--color-blanco);
+    padding: 25px 20px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.06);
+}
+
+.header-contenido {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-identidad h1 {
+    margin: 0;
+    font-size: 30px;
+    color: var(--color-texto);
+}
+
+.header-identidad p {
+    margin: 8px 0 20px;
+    color: var(--color-texto-claro);
+}
+
+.navegacion {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+    margin-bottom: 18px;
+}
+
+.navegacion a {
+    color: var(--color-principal);
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.navegacion a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-principal);
+    transition: width 0.3s;
+}
+
+.navegacion a:hover::after {
+    width: 100%;
+}
+
+/* ADAPTACIÓN PARA CELULAR */
+
+@media (max-width: 768px) {
+
+    .header-identidad h1 {
+        font-size: 24px;
+    }
+
+    .navegacion {
+        gap: 12px;
+    }
+
+    .navegacion a {
+        font-size: 14px;
+    }
+}
+/* SUBIR SECCIÓN DE INICIO */
+
+#inicio {
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+/* EXPERIENCIA PROFESIONAL MÁS COMPACTA */
+
+.experiencia-contenedor {
+    max-width: 850px;
+}
+
+.experiencia-item {
+    padding: 14px 18px;
+    margin-bottom: 15px;
+    gap: 20px;
+}
+
+.experiencia-fecha {
+    min-width: 125px;
+    font-size: 14px;
+}
+
+.experiencia-info h3 {
+    margin: 0 0 3px;
+}
+
+.experiencia-info h4 {
+    margin: 0 0 8px;
+    font-size: 14px;
+}
+
+.experiencia-info p {
+    margin: 6px 0;
+    line-height: 1.45;
+    font-size: 14px;
+}
+
+#experiencia h2 {
+    margin-bottom: 18px;
+}
